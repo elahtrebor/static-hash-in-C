@@ -1,4 +1,5 @@
 # static-hash-in-C
+<pre>
 Example of a static hash in C using 2 arrays
 
 This file will print all the hash key -> hash index numbers first so you can see what each string was hashed to.
