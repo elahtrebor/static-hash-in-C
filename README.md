@@ -2,12 +2,16 @@
 <pre>
 Example of a static hash in C using 2 arrays
 
-This file will print all the hash key -> hash index numbers first so you can see what each string was hashed to.
+The CODE sets up 1 array with the input to be hashed and another array dedicated to the hash keys.
+The first array is read using a loop to compute the hash or each array index to assign.
+It then stores the input string in the array using the hash/array index.
 
-Then it will print the search for the string "DEBUGOFF" which yields the string "DOF" 
-
+This code will print all the hash keys -> hash index numbers first so you can see what each string was hashed to.
+Then it will print the search for the string "DEBUGOFF" which yields the hashed string "DOF" 
+To compile:
 $ gcc staticHashc.c 
 
+Output:
 $ ./a.out
 ZERO_IDX->652
 +->44
