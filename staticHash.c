@@ -5,7 +5,7 @@
 char *vals[BUCKETS];
 
 int hashstring(char *s){
-int i, n, z; n = z = 0;
+int i, n, z; i = n = z = 0;
  while(*s != '\0'){ n = (int)*s++ + i; z = z + n; }  
  return z % BUCKETS;
 }
