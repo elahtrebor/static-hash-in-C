@@ -1,6 +1,6 @@
 # static-hash-in-C
 <pre>
-Example of a static hash in C using 2 arrays. Tested on Ubuntu 16.4 , Mint 17, Android 9. 
+Example of a static hash in C using a static array. Tested on Ubuntu 16.4 , Mint 17, Android 9. 
 This code is free.
 
 The CODE sets up 1 array with the input to be hashed and another array dedicated to the hash keys.
